@@ -1,8 +1,9 @@
 //------------ CLASSES ------------------------------------------------
 
 class Pokemon {
-  constructor(name, health, skills) {
+  constructor(name, magic, health, skills) {
     this.name = name;
+    this.magic = magic;
     this.health = health;
     this.skills = skills;
   }

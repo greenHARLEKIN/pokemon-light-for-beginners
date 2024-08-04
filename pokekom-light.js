@@ -3,7 +3,7 @@
 class Pokemon {
   constructor(name, magic, health, skills) {
     this.name = name;
-    this.magic = magic;
+    this.magic = magic;  // Wird nicht genutzt...kann aber nicht entfernt werden???
     this.health = health;
     this.skills = skills;
   }
@@ -32,7 +32,7 @@ class Pokemon {
 class AttackSkill {
   constructor(name, costs, strength) {
     this.name = name;
-    this.costs = costs; // Könnte man sich auch schenken...
+    this.costs = costs; // Wird nicht genutzt...
     this.strength = strength;
   }
 }
